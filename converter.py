@@ -20,7 +20,7 @@ def date_replacer(string):
         data = date(2020, meses_dict[mes], int(dia))
         string = string.replace(f"{dia} {mes}", data.isoformat())
 
-    return string 
+    return string
 
 
 @click.command()
